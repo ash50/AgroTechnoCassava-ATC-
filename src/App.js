@@ -48,6 +48,7 @@ function App() {
         <Link
           to="https://wa.me/6287874574409"
           className="flex items-center space-x-2 fixed bg-green-200 bottom-10 right-10 rounded-full p-3"
+          target="newtab"
         >
           <img src={waIcon} alt="Wa-icon-color.png" className="w-10" />
           <div>Contact Us!</div>
