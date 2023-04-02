@@ -13,16 +13,28 @@ import waIcon from "./Img/Wa-icon-color.png";
 import { Helmet } from "react-helmet";
 
 function App() {
-  window.addEventListener("scroll", changeBg);
-  function changeBg() {
+  // Versi Arrow Function ()=>
+  window.addEventListener("scroll", () => {
     const navbar = document.getElementById("navbar");
     const scrollValue = window.scrollY;
-    if (scrollValue < 100) {
+    if (scrollValue < 150) {
       navbar.classList.remove("bgColor");
     } else {
       navbar.classList.add("bgColor");
     }
-  }
+  });
+
+  // versi non arrow function () => (sebenarnya hanya beda di jika arrow () jika function () harus di define dulu --> case ini changeBg)
+  // window.addEventListener("scroll", changeBg);
+  // function changeBg() {
+  //   const navbar = document.getElementById("navbar");
+  //   const scrollValue = window.scrollY;
+  //   if (scrollValue < 150) {
+  //     navbar.classList.remove("bgColor");
+  //   } else {
+  //     navbar.classList.add("bgColor");
+  //   }
+  // }
   return (
     <BrowserRouter>
       <body className="vh">
@@ -49,10 +61,7 @@ function App() {
           />
         </div>
         {/* Navbar*/}
-        <div
-          className="pt-3 p-2 sticky top-0 bgColor animasiBgColor"
-          id="navbar"
-        >
+        <div className="pt-3 p-2 sticky top-0  animasiBgColor" id="navbar">
           {/* Navbar Container */}
           <div className="mx-auto container">
             {/* Top Menu */}
