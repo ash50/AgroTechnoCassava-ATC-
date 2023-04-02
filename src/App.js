@@ -72,7 +72,7 @@ function App() {
                 <img
                   src={logoPutih}
                   alt="Logo-White.jpg"
-                  className="w-[20%]"
+                  className="w-[10%]"
                   id="logo"
                 />
               </div>
@@ -92,7 +92,7 @@ function App() {
         {/* Hero Section */}
         <section className="container mx-auto">
           <div className="z-0 mt-72 mb-[480px]  w-[40%]">
-            <div className="text-white text-lg font-bold">
+            <div className="text-white text-2xl sfont-bold">
               Supplying across the globe
             </div>
             <div className="font-bold text-white text-5xl">
