@@ -10,3 +10,6 @@
 .animasiBgColor {
   transition: all 1s;
 }
+.slider {
+  transition: 0.5s;
+}
