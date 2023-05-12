@@ -673,7 +673,7 @@ function App() {
 
             <div className="container mx-auto h-[90%] gap-x-12 flex">
               {/* backButton  Desktop*/}
-              <div className="z-10 hidden  cursor-pointer w-[80px] lg:flex">
+              <div className="z-10 hidden  cursor-pointer w-[80px] mx-7  lg:flex">
                 <img
                   src={backArrowImg}
                   alt="back button"
@@ -699,6 +699,7 @@ function App() {
                       onClick={backArrow}
                     />
                   </div>
+
                   {/* Forward Button Mobile */}
                   <div className=" cursor-pointer w-[35px]">
                     <img
@@ -712,7 +713,7 @@ function App() {
               </div>
 
               {/* forwardButton Desktop*/}
-              <div className="hidden cursor-pointer lg:w-[80px] lg:flex">
+              <div className="hidden cursor-pointer lg:w-[80px] mx-7 lg:flex">
                 <img
                   src={forwardArrowImg}
                   alt="forward button"
