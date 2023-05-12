@@ -663,6 +663,7 @@ function App() {
               </div>
             </div>
           </section>
+
           {/* Section Products */}
           <section
             className="bg-[#F0EDED] w-full  h-[850px] mt-36 px-2 pt-10 relative mb-[11rem] lg:pt-20 lg:px-0 lg:h-[900px]"
@@ -670,9 +671,9 @@ function App() {
           >
             {/* Section and box productUs */}
 
-            <div className="container mx-auto h-[90%] gap-x-12 overflow-hisdden ">
+            <div className="container mx-auto h-[90%] gap-x-12 flex">
               {/* backButton  Desktop*/}
-              <div className="z-10 hidden  cursor-pointer w-[35px] absolute top-[700px] left-44 lg:left-28 lg:top-96 lg:flex">
+              <div className="z-10 hidden  cursor-pointer w-[80px] lg:flex">
                 <img
                   src={backArrowImg}
                   alt="back button"
@@ -686,39 +687,42 @@ function App() {
                 {/* untuk di slide */}
                 {/* Card 1,2, & 3 useState*/}
                 {card[currentIndex]}
-              </div>
-              {/* forward and back button Mobile */}
-              <div className="flex lg:hidden mt-3 px-1 gap-x-2">
-                {/* Back Button Mobile */}
-                <div className="z-10 cursor-pointer w-[35px]">
-                  <img
-                    src={backArrowImg}
-                    alt="back button"
-                    className=" object-contain"
-                    onClick={backArrow}
-                  />
+
+                {/* forward and back button Mobile */}
+                <div className="flex lg:hidden mt-3 px-1 gap-x-2">
+                  {/* Back Button Mobile */}
+                  <div className="z-10 cursor-pointer w-[35px]">
+                    <img
+                      src={backArrowImg}
+                      alt="back button"
+                      className=" object-contain"
+                      onClick={backArrow}
+                    />
+                  </div>
+                  {/* Forward Button Mobile */}
+                  <div className=" cursor-pointer w-[35px]">
+                    <img
+                      src={forwardArrowImg}
+                      alt="forward button"
+                      className=" object-contain"
+                      onClick={forwardArrow}
+                    />
+                  </div>
                 </div>
-                {/* Forward Button Mobile */}
-                <div className=" cursor-pointer w-[35px]">
-                  <img
-                    src={forwardArrowImg}
-                    alt="forward button"
-                    className=" object-contain"
-                    onClick={forwardArrow}
-                  />
-                </div>
               </div>
+
               {/* forwardButton Desktop*/}
-              <div className="hidden cursor-pointer w-[35px] absolute right-32 top-[700px] lg:right-28 lg:top-96 lg:flex">
+              <div className="hidden cursor-pointer lg:w-[80px] lg:flex">
                 <img
                   src={forwardArrowImg}
                   alt="forward button"
-                  className=" object-contain"
+                  className=" object-contain "
                   onClick={forwardArrow}
                 />
               </div>
             </div>
           </section>
+
           {/* Contact Us Section */}
           <section className="relative mb-36" id="contactUs">
             <div className="flex">
