@@ -759,7 +759,7 @@ function App() {
 
                     <div className="font-bold text-md lg:text-xl">Email</div>
                     <div className="text-md lg:text-xl">
-                      atc.cassava@gmail.com
+                      contactus@agrotechno-cassava.com
                     </div>
 
                     <div className="font-bold text-md lg:text-xl">Whatsapp</div>
