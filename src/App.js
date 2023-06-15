@@ -88,7 +88,7 @@ function App() {
         {/* contactUs Button */}
         <div className="h-[25%] items-end">
           <Link
-            to="https://wa.me/6287874574409"
+            to="https://wa.me/6281285779990"
             className=" flex items-center rounded-lg border-2 border-gray-300 w-[150px] h-[40px] hover:bg-gray-300"
             target="newtab"
           >
@@ -150,7 +150,7 @@ function App() {
         {/* contactUs Button */}
         <div className="h-[25%] items-end">
           <Link
-            to="https://wa.me/6287874574409"
+            to="https://wa.me/6281285779990"
             className=" flex items-center rounded-lg border-2 border-gray-300 w-[150px] h-[40px] hover:bg-gray-300"
             target="newtab"
           >
@@ -213,7 +213,7 @@ function App() {
         {/* contactUs Button */}
         <div className="h-[25%] items-end">
           <Link
-            to="https://wa.me/6287874574409"
+            to="https://wa.me/6281285779990"
             className=" flex items-center rounded-lg border-2 border-gray-300 w-[150px] h-[40px] hover:bg-gray-300"
             target="newtab"
           >
@@ -271,7 +271,7 @@ function App() {
         <body className="">
           {/* WA button */}
           <Link
-            to="https://wa.me/6287874574409"
+            to="https://wa.me/6281285779990"
             className="flex items-center space-x-2 fixed bg-green-200  rounded-full right-5 bottom-5 md:bottom-10 p-2 md:right-10 md:p-3 z-50"
             target="newtab"
           >
@@ -768,7 +768,7 @@ function App() {
                     </div>
                     <div className="h-[25%] items-end">
                       <Link
-                        to="https://wa.me/6287874574409"
+                        to="https://wa.me/6281285779990"
                         className=" flex items-center rounded-lg border-2 border-green-100 w-[150px] h-[40px] bg-green-200 hover:bg-green-100"
                         target="newtab"
                       >
