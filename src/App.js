@@ -266,7 +266,7 @@ function App() {
         </div>
         {/* Image Mobile */}
         <div className="w-full align-middle items-center justify-center block lg:hidden lg:w-1/2">
-          <div className="flex w-full h-[308px] ">
+          <div className="flex w-full h-[280px] ">
             <img
               src={driedCassava}
               alt="Dried Cassava"
