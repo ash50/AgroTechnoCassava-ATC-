@@ -25,6 +25,7 @@ import forwardArrowImg from "./Img/forwardArrow.png";
 import chipsProduct from "./Img/DriedCassava3.jpg";
 import flourProduct from "./Img/Cassava-Flour.jpg";
 import freshProduct from "./Img/Fresh cassava.jpeg";
+import driedCassava from "./Img/Dried Cassava.jpg";
 import bgLine from "./Img/bgLine.png";
 import { Helmet } from "react-helmet";
 
@@ -235,6 +236,69 @@ function App() {
         <div className="flex w-[675px] h-[608px] ">
           <img
             src={freshProduct}
+            alt="Dried Chip Cassava"
+            className="object-cover rounded-[2rem] "
+          />
+        </div>
+      </div>
+    </div>,
+
+    // Card 4
+    <div className="flex flex-col gap-x-10 pt-2 w-full lg:flex-row lg:pt-10">
+      {/* Left Items product */}
+      {/* Description */}
+      <div className="flex flex-col gap-y-5 w-full lg:gap-y-10 lg:w-1/2">
+        <div className="font-bold text-3xl lg:text-5xl">Products</div>
+        <div className="text-green-600 text-2xl font-thin lg:text-4xl lg:mt-10">
+          Dried Cassava
+        </div>
+        <div className="text-md font-thin  lg:pr-10 lg:mt-10 lg:text-xl">
+          Dried Cassava is widely used in most tropical areas for feeding pigs,
+          cattle, sheep and poultry. Dried peels of cassava roots are fed to
+          sheep and goats, and raw or boiled roots are mixed into a mash with
+          protein concentrates such as maize, sorghum, groundnut or oil-palm
+          kernel meals and mineral salts for livestock feeding.
+          <br></br>
+          <br></br>
+          Argo Techno Cassava production base in various Indonesia, our product
+          is handle by dedicated professional, we offer best quality of Fresh
+          Cassava.
+        </div>
+        {/* Image Mobile */}
+        <div className="w-full align-middle items-center justify-center block lg:hidden lg:w-1/2">
+          <div className="flex w-full h-[308px] ">
+            <img
+              src={driedCassava}
+              alt="Dried Cassava"
+              className="object-cover rounded-[2rem] "
+            />
+          </div>
+        </div>
+        {/* contactUs Button */}
+        <div className="h-[25%] items-end">
+          <Link
+            to="https://wa.me/6281285779990"
+            className=" flex items-center rounded-lg border-2 border-gray-300 w-[150px] h-[40px] hover:bg-gray-300"
+            target="newtab"
+          >
+            <div className="w-[70%] flex items-center ">
+              <div className="pl-4">Contact Us</div>
+            </div>
+            <div className="w-[30%] flex items-center justify-start ">
+              <img
+                src={waIcon}
+                alt="icon WA"
+                className="object-contain w-[55%]"
+              />
+            </div>
+          </Link>
+        </div>
+      </div>
+      {/* Image desktop*/}
+      <div className="w-1/2 align-middle items-center justify-center hidden lg:flex">
+        <div className="flex w-[675px] h-[608px] ">
+          <img
+            src={driedCassava}
             alt="Dried Chip Cassava"
             className="object-cover rounded-[2rem] "
           />
